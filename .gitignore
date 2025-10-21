@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+*.out
+
+# Vendor directory (if using Go modules)
+vendor/
+
+# Test binary
+*.test
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Unix executables
+a.out
+
+# Unix executables and build artifacts
+/bin/
+build/
+/dist/
+*.out
+*.o
+*.so
+*.a
+*.test
+core
+
+# Go specific
+# ignore binaries you build into the repo root or bin/
+*.exe
+.DS_Store
+
+# Specific binaries
+calc_server/calc_server
